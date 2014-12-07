@@ -1,0 +1,18 @@
+name: DotSlashZero
+description:
+author: Vincent Ycasas
+avatar:
+
+url: http://www.dotslashzero.net/
+baseurl:
+
+permalink: /:year/:month/:day/:title
+markdown: kramdown
+highlighter: pygments
+
+exclude:
+    - .*
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README

@@ -1,0 +1,121 @@
+/*
+*/
+    code {
+        font-family: "Source Code Pro";
+    }
+    hr {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    #dszheader {
+        margin: 0 auto;
+        min-height: 130px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 70px;
+        white-space: nowrap;
+    }
+
+    #dsztitle {
+        margin: 0 auto;
+        padding-top: 30px;
+        text-align: center;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    #dsztitle-link {
+        font-family: ubuntu-1,ubuntu-2,"Oswald",Helvetica,Arial,sans-serif;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 400;
+        font-variant: normal;
+        margin: 0px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    #dsznavi {
+        padding-top: 25px;
+    }
+
+    #dsznavi ul {
+        margin-bottom: 0px;
+    }
+
+    #dsznavi li {
+        display: inline;
+        list-style-type: none;
+        padding-right: 20px;
+    }
+
+    #dsznavi a:hover {
+        color: gray;
+    }
+
+    .dsznavi-link {
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    #dszmaincontent {
+        margin-bottom: 60px;
+        margin-top: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #dszmaincontent ul {
+        list-style-type: square;
+        margin-left: 40px;
+    }
+
+    #dszfooter {
+        font-size: 10px;
+        font-style: normal;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+    #dszpost-title {
+        margin-bottom: 30px;
+    }
+
+    #dszpost-date {
+        font-size: 10px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .dszline {
+        border-top: 1px solid black;
+        margin-bottom: 20px;
+    }
+
+    .dszsummary-title a {
+        text-decoration: none;
+    }
+
+    .dszsummary-title a:hover {
+        color: gray;
+    }
+
+    .dszsummary-date {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .dszsummary-readmore a:hover {
+        color: gray;
+    }
+
+    .dszsummary-split {
+        border-top: 1px dashed gray;
+        margin-bottom: 20px;
+    }

@@ -1,0 +1,12 @@
+---
+layout: main
+---
+
+{% capture postdate %}{{ page.date | date: '%Y %B %d' }}{% endcapture %}
+
+<h1 id="dszpost-title">{{ page.title }}</h1>
+
+{{ content }}
+
+{% capture postdate %}{{ page.date | date: '%Y %B %d' }}{% endcapture %}
+<h2 id="dszpost-date">Posted {{ postdate }} under {{ page.category }}</h2>
