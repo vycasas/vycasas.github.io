@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Language Binding Tutorial Part 2&#58; Java
+title: Language Binding Tutorial Part 3&#58; Java
 category: Programming
 ---
 We have covered the basics (and some advanced topics) in making a language binding for a native library. In our previous discussions, we wrote a simple native library in C (for higher compatibility) and provided the necessary middle layer so that the C objects can be used in C++ in an object oriented manner. In this article, we will go over adding an API for Java. We will be taking what we have worked on the previous topics and will be adding on top of it.
